@@ -12,7 +12,7 @@ const Curriculum = ({ type }) => {
     {
       name: 'Chulesirraptor'
     }
-  ]
+  ];
   
   return (
     type &&
@@ -25,7 +25,7 @@ const Curriculum = ({ type }) => {
           <Label for="examplePassword">Password</Label>
           <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
         </FormGroup>
-          <MultipleSelection options={options} />
+        <MultipleSelection options={options} />
         {
           type === DEPARTAMENTAL &&
             <MultipleSelection options={options} multiple />

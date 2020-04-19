@@ -6,6 +6,7 @@ import AppContext from '../../Context';
 
 function App() {
   const [currType, setCurrType] = useState('');
+
   const contextValues = {
     curriculum: currType,
     setCurriculum: value => setCurrType(value)
